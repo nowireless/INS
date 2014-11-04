@@ -1,0 +1,6 @@
+ [submodule "MiscMath"]
+	path = MiscMath
+	url = https://github.com/nowireless/MiscMath.git
+[submodule "Serial"]
+	path = Serial
+	url = https://github.com/nowireless/Serial.git
