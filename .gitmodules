@@ -4,3 +4,6 @@
 [submodule "Serial"]
 	path = Serial
 	url = https://github.com/nowireless/Serial.git
+[submodule "NowirelessCommon"]
+	path = NowirelessCommon
+	url = https://github.com/nowireless/NowirelessCommon.git

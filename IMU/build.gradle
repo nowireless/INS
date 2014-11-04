@@ -15,5 +15,7 @@ repositories {
 }
 
 dependencies {
+	compile project('NAV6')
+	compile project(':Serial')
     testCompile "junit:junit:4.11"
 }

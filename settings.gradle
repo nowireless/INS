@@ -9,8 +9,10 @@
  * in the user guide at http://gradle.org/docs/2.1/userguide/multi_project_builds.html
  */
 
+include 'NowirelessCommon'
 include 'Serial'
 include 'MiscMath'
 include 'IMU'
+include 'IMU:NAV6'
 
 rootProject.name = 'INS'
