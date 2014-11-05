@@ -7,8 +7,16 @@
  * user guide available at http://gradle.org/docs/2.1/userguide/tutorial_java_projects.html
  */
 
+buildscript {
+  repositories { jcenter() }
+  dependencies {
+    classpath 'com.github.jengelman.gradle.plugins:shadow:1.1.1'
+  }
+}
+
 apply plugin: 'java'
 apply plugin: 'eclipse'
+apply plugin: 'com.github.johnrengelman.shadow'
 
 repositories {
     jcenter()
